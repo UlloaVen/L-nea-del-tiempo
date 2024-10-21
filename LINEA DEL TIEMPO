@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Línea de Tiempo Botánica</title>
+    <#timeline-embed {
+    width: 80%;  /* Ajusta el ancho al 80% del contenedor principal */
+    height: 500px;  /* Cambia la altura a 500px */
+    margin: 0 auto;  /* Centra la línea de tiempo */>
+</head>
+<body>
+<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+<script type="text/javascript">
+    var timeline_json = {
+        "events": [
+            {
+                "start_date": {
+                    "year": "1600000000",
+                    "month": "",
+                    "day": ""
+                },
+                "text": {
+                    "headline": "Origen de las Plantas – Colonización Acuática",
+                    "text": "<p>Las primeras formas de vida fueron microorganismos unicelulares en los océanos primitivos. Las algas verdes, hace 1.6 mil millones de años, son los ancestros directos de las plantas terrestres.</p>"
+                },
+                "media": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Green_alga_microscope.jpg",
+                    "caption": "Algas verdes al microscopio."
+                }
+            },
+            {
+                "start_date": {
+                    "year": "500",
+                    "month": "",
+                    "day": ""
+                },
+                "text": {
+                    "headline": "Las Primeras Plantas Terrestres (Briófitos)",
+                    "text": "<p>Las briófitas, como los musgos y hepáticas, colonizaron la tierra hace unos 500 millones de años, enfrentándose a desafíos como la desecación y la gravedad.</p>"
+                },
+                "media": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Moss_in_forest_floor.jpg",
+                    "caption": "Musgo en un bosque."
+                }
+            },
+            {
+                "start_date": {
+                    "year": "430",
+                    "month": "",
+                    "day": ""
+                },
+                "text": {
+                    "headline": "Aparición de las Plantas Vasculares (Pteridofitas)",
+                    "text": "<p>Las primeras plantas vasculares aparecieron hace 430-420 millones de años, con tejidos especializados como xilema y floema.</p>"
+                },
+                "media": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ferns_Nepal.JPG",
+                    "caption": "Helechos, representantes de las pteridofitas."
+                }
+            },
+            {
+                "start_date": {
+                    "year": "360",
+                    "month": "",
+                    "day": ""
+                },
+                "text": {
+                    "headline": "Aparición de las Plantas con Semillas (Gimnospermas)",
+                    "text": "<p>Hace 360 millones de años, las gimnospermas, como los pinos, introdujeron las semillas, permitiendo mayor independencia del agua para la reproducción.</p>"
+                },
+                "media": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Pinus_nigra_subsp._salzmannii_JPG1.jpg",
+                    "caption": "Ejemplo de gimnospermas: pino negro."
+                }
+            },
+            {
+                "start_date": {
+                    "year": "290",
+                    "month": "",
+                    "day": ""
+                },
+                "text": {
+                    "headline": "Dominio de las Gimnospermas",
+                    "text": "<p>Durante el Pérmico, las gimnospermas dominaron los ecosistemas terrestres, adaptándose a climas secos.</p>"
+                },
+                "media": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pinus_longaeva.jpg",
+                    "caption": "Bosques de gimnospermas."
+                }
+            },
+            {
+                "start_date": {
+                    "year": "140",
+                    "month": "",
+                    "day": ""
+                },
+                "text": {
+                    "headline": "Aparición de las Plantas con Flores (Angiospermas)",
+                    "text": "<p>Las angiospermas surgieron hace 140-130 millones de años, revolucionando los ecosistemas con su relación con los polinizadores.</p>"
+                },
+                "media": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Rosa_rubiginosa_2.jpg",
+                    "caption": "Angiosperma con flor: Rosa."
+                }
+            },
+            {
+                "start_date": {
+                    "year": "40",
+                    "month": "",
+                    "day": ""
+                },
+                "text": {
+                    "headline": "Aparición de las Gramíneas",
+                    "text": "<p>Hace 40-30 millones de años, las gramíneas dominaron ecosistemas de praderas, transformando el paisaje y la evolución de herbívoros.</p>"
+                },
+                "media": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Grasslands_at_Lajpat_Nagar.JPG",
+                    "caption": "Pradera dominada por gramíneas."
+                }
+            },
+            {
+                "start_date": {
+                    "year": "-10000",
+                    "month": "",
+                    "day": ""
+                },
+                "text": {
+                    "headline": "Agricultura y Domesticación de Plantas",
+                    "text": "<p>Hace 10,000 años, la domesticación de plantas, como el trigo y el maíz, permitió a los humanos desarrollar la agricultura y las civilizaciones.</p>"
+                },
+                "media": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Maize_field.jpg",
+                    "caption": "Campo de maíz."
+                }
+            }
+        ]
+    };
+    window.timeline = new TL.Timeline('timeline-embed', timeline_json);
+</script>
+<script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+</body>
+</html>
